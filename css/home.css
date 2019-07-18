@@ -1,0 +1,32 @@
+.logo-img{
+  width: 30%;
+}
+
+img{
+  max-height: 45px;
+  margin-right: 2px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+.img-nota{
+	max-height: 800px;
+}
+
+div.secondary.callout.text-center{
+  min-height: 242px;
+}
+div.secondary.callout.text-center .man{
+  min-height: 150px;
+}
+.gris{
+	background-color: #C1BBBB;
+}
+
+.men{
+	background-color: #100F0F;
+
+}
+.icon{
+	width: 300px;
+	height: 100px;
+}

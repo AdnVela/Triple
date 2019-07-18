@@ -1,0 +1,140 @@
+conteiner{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.barra-superior{
+  min-height: 10rem;
+}
+div[class*="columna"]{
+  min-height: 40rem;
+}
+div[class*="bloque"]{
+  height: 25rem;
+
+}
+h4{
+  font-size: 25px;
+  font-family: haverhit;
+  text-align: center;
+}
+h5{
+  margin-top: 20px;
+}
+.columna-chat, .columna-news{
+  padding: 0 !important;
+  margin-bottom: 30px;
+}
+.contenedor-write-publicacion{
+  min-height: 7rem;
+}
+.contenedor-publicacion{
+  min-height: 17rem;
+}
+.logo{
+  width: 200px;
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  margin-bottom: -1rem;
+  border: 0.6rem solid #13FFBD;
+  border-radius: 30px;
+  float: left;
+}
+.contenedor-noticias{
+  margin-top: 1rem;
+  min-height: 50rem;
+  padding: 0.5rem;
+}
+.img-lugar{
+  width: 200px;
+  height: 300px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  border: 0.6rem solid #13FFBD;
+  
+}
+.img-lugar2{
+  width: 180px;
+  height: 740px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-right: 0px;
+  border: 0.6rem solid #13FFBD;
+}
+.img-lec{
+  width: 150px;
+  border: 0.6rem solid #13FFBD;
+
+}
+.img-autor{
+  width: 100px;
+  margin-left: 30px;
+  border: 0.6rem solid #13FFBD;
+}
+.img-dest{
+  width: 20px;
+}
+.responsive-img{
+  border: 0.6rem solid #ff8f00;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.buscar-campo h3{
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 7rem;
+  margin-top: 9rem;
+  font-size: 25px;
+  font-family: haverhit;
+  color: #232020;
+  
+}
+.barra-superior .row{
+  margin-bottom: 0;
+}
+.contenedor-botones{
+  margin-top: 1rem;
+}
+#publicacion-texto{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  resize: none;
+  border: 1px solid #ff8f00;
+  background-color: #ff8f00;
+  height: 5rem;
+  color: #fff;
+}
+.menu-des{
+  bottom: 45px; 
+  right: 90vw;
+}
+@media (max-width: 600px) {
+  
+  .columna-grupos{
+    padding: 0 !important;
+  }
+  .barra-superior{
+    padding: 0 !important;
+  }
+  .contenedor-botones{
+    padding: 0 !important;
+  }
+  .logo {
+   width: 150px;
+   margin-right: 0px;
+
+  }
+  .barra-campo h3{
+    margin-left: 0.5px;
+  }
+  .img-lugar{
+  width: 85%;
+  }
+  .img-lugar2{
+    width: 85%;
+    margin-left: 20px;
+  }
+}

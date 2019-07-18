@@ -1,0 +1,19 @@
+ .slider{
+        background: url(../images/bg-3.png);
+        background-size: cover;
+        background-position: center; 
+        height: 400px;
+
+ }
+ .menu-prin{
+ 	background-color: #CC1414;
+ }
+
+.imag-tex{
+	width: 50px;
+	margin-right:10px;
+}
+
+.img-font{
+	width: 20px;
+}
